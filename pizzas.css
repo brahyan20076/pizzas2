@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+background-image: url(img/fondopizzas.avif);
+}
+
+header {
+    background-color: #f71515;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pizza h3 {
+    margin-top: 0;
+}
+
+.order-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+.order-btn:hover {
+    background-color: #ff4500;
+}

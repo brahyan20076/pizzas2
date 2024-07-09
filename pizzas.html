@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería Online</title>
+    <link rel="stylesheet" href="pizzas.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a <br> <img src="img/logopizzas.avif" alt="" width="100%"> Online</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <h2 style="color: white;">Nuestro Menú</h2>
+            <div class="pizza" data-name="Margherita" data-price="10" data-size="Mediana">
+                <h3>Pizza hawaiana</h3>
+                <p>Tamaño: Mediana</p>
+                <p>Precio: $10</p>
+              <a class="order-btn" href="https://api.whatsapp.com/send? phone=3042609890&text=hola, quiero comprar una pizza de hawaiana mediana!">Ordenar</a>
+            </div>
+            <div class="pizza" data-name="Pepperoni" data-price="12" data-size="Grande">
+                <h3>Pizza Pepperoni</h3>
+                <p>Tamaño: personal</p>
+                <p>Precio: $15.000</p>
+                <a class="order-btn" href="https://api.whatsapp.com/send? phone=3042609890&text=hola, quiero comprar una pizza de peperoni personal!">Ordenar</a>
+            </div>
+            <div class="pizza" data-name="Vegetariana" data-price="11" data-size="Mediana">
+                <h3>Pizza Vegetariana</h3>
+                <p>Tamaño: Mediana</p>
+                <p>Precio: $11</p>
+                <a class="order-btn" href="https://api.whatsapp.com/send? phone=3042609890&text=hola, quiero comprar una pizza de peperoni mediana!">Ordenar</a>
+            </div>
+        </section>
+    </main>
+    <script src="pizzas.js"></script>
+</body>
+</html>
